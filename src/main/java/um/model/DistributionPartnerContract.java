@@ -17,4 +17,12 @@ public class DistributionPartnerContract {
     public String getUsage() {
         return usage;
     }
+
+    @Override
+    public String toString() {
+        return "DistributionPartnerContract{" +
+                "partner='" + partner + '\'' +
+                ", usage='" + usage + '\'' +
+                '}';
+    }
 }
